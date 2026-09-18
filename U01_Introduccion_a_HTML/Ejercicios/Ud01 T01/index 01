@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Etiquetas HTML </title>
+        <meta name="autor" content= "Hugo"/>
+        <meta name="keywords" content="HTML, etiquetas, títulos, párrafos, capítulo">
+        <meta name="description" content="como crear etiquetas en Html">
+    </head>
+    <body>
+        <h1> Capitulo 1</h1>
+        <hr>
+        <h2> Etiquetas HTML</h2>
+        <p>Para comenzar...</p>
+        <h2> Estructura basica dunha paxina</h2>
+        <p> As paxinas web...</p>
+        <h1>Capitulo 2</h1>
+        <hr>
+        <h2>Titulos e parrafos</h2>
+        <p>A linguaxe...</p>
+        <h3> Parrafos</h3>
+        <p>As etiquetas...</p>
+        <h3>Titulos</h3>
+        <p>As etiquetas desde...</p>
+        <hr>
+        <em> CIFP A Carballeira</em>
+        <br>
+        <br>
+        <em>Praza da Lexion S/N</em>
+        <br>
+        <br>
+        <em>Ourense</em>
+    </body>
+</html>

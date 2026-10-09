@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo de combinaciones de tablas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+ 
 </head>
 
 <body>
-    <table border="2
-    ">
+    <table border="1">
         <thead>
             <tr>
-                <!-- fila 1-->
-                <th colspan="11">1ºDAM</th>
+                <!-- fila 2-->
+                <th colspan="11" >1ºDAM</th>
             </tr>
         </thead>
         <tbody>
@@ -29,20 +30,20 @@
             <tr>
                 <!-- fila 3-->
                 <td>8:30 <br> 9:20</td>
-                <td colspan="2" rowspan="2"> BD<br>Erica Aula 1ºDAM</p>
+                <td colspan="2" rowspan="2" class="bd"> BD<br>Erica Aula 1ºDAM
                 </td>
-                <td colspan="2" >ContDes <br>Cristina Aula 1ºDAM</td>
-                <td colspan="2" >Ingles <br>Cristina Aula 1ºDAM</td>
-                <td colspan="2" rowspan="2" >BD <br>Erica Aula 1ºDAM</p>
+                <td colspan="2" class="contdes">ContDes <br>Cristina Aula 1ºDAM</td>
+                <td colspan="2" class="ing">Ingles <br>Cristina Aula 1ºDAM</td>
+                <td colspan="2" rowspan="2" class="bd" >BD <br>Erica Aula 1ºDAM
                 </td>
-                <td colspan="2" rowspan="2">Lima <br>Janeiro Aula 1ºDAM</p>
+                <td colspan="2" rowspan="2"class="lima">Lima <br>Janeiro Aula 1ºDAM
                 </td>
             </tr>
             <tr>
                 <!-- fila 4-->
                 <td coldspan="2">9:20 <br>10:10</td>
-                <td colspan="2">Lima <br>Janeiro Aula 1ºDAM</td>
-                <td colspan="2">ContDes <br>Cristina Aula 1ºDAM</td>
+                <td colspan="2" class="lima">Lima <br>Janeiro Aula 1ºDAM</td>
+                <td colspan="2" class="contdes">ContDes <br>Cristina Aula 1ºDAM</td>
             </tr>
             <tr>
                 <td> </td>
@@ -50,17 +51,17 @@
             </tr>
             <tr>
                 <td>10:30 <br> 11:20</td>
-                <td colspan="2">ItPerEmpl <br> Iria Aula 1ºDAM</td>
-                <td colspan="2">IngProf <br> Cristina Aula 1ºDAM</td>
-                <td colspan="2" rowspan="2">SistInf <br>Lucas Aula 1ºDAM</td>
-                <td colspan="2">Lima <br>Janeiro Aula 1ºDAM</td>
-                <td colspan="2" rowspan="2">Prog <br>Toni Aula 1ºDAM</td>
+                <td colspan="2" class="ipe">ItPerEmpl <br> Iria Aula 1ºDAM</td>
+                <td colspan="2" class="ing">IngProf <br> Cristina Aula 1ºDAM</td>
+                <td colspan="2" rowspan="2" class="sist">SistInf <br>Lucas Aula 1ºDAM</td>
+                <td colspan="2" class="lima">Lima <br>Janeiro Aula 1ºDAM</td>
+                <td colspan="2" rowspan="2" class="prog">Prog <br>Toni Aula 1ºDAM</td>
             </tr>
             <tr>
                 <td>11:20 <br>12:10</td>
-                <td colspan="2">ContDes <br>Cristina Aula 1ºDAM</td>
-                <td colspan="2">BD <br>Erica Aula 1ºDAM</td>
-                <td>SustAplicSistProd <br>Iria Aula 1ºDAM</td>
+                <td colspan="2" class="contdes">ContDes <br>Cristina Aula 1ºDAM</td>
+                <td colspan="2" class="bd">BD <br>Erica Aula 1ºDAM</td>
+                <td class="sust">SustAplicSistProd <br>Iria Aula 1ºDAM</td>
             </tr>
             <tr>
                 <td> </td>
@@ -68,11 +69,11 @@
             </tr>
             <tr>
                 <td>12:30 <br>13:20</td>
-                <td colspan="2" rowspan="2">SistInf <br>Lucas Aula 1ºDAM</td>
-                <td colspan="2" rowspan="2">Prog <br>Toni Aula 1ºDAM</td>
-                <td colspan="2" rowspan="2">BD <br>Erica Aula 1ºDAM</td>
-                <td colspan="2" rowspan="2"> Prog <br> Toni Aula 1ºDAM</td>
-                <td colspan="2" rowspan="2">SistInf <br>Lucas <br>Prog Aula 1ºDAM</td>
+                <td colspan="2" rowspan="2" class="sist">SistInf <br>Lucas Aula 1ºDAM</td>
+                <td colspan="2" rowspan="2" class="prog">Prog <br>Toni Aula 1ºDAM</td>
+                <td colspan="2" rowspan="2" class="bd">BD <br>Erica Aula 1ºDAM</td>
+                <td colspan="2" rowspan="2"class="prog"> Prog <br> Toni Aula 1ºDAM</td>
+                <td colspan="2" rowspan="2" class="sist">SistInf <br>Lucas <br>Prog Aula 1ºDAM</td>
             </tr>
             <tr>
                 <td>13:20 <br>14:10</td>
@@ -83,9 +84,9 @@
             </tr>
             <tr>
                 <td>14:50 <br>15:40</td>
-                <td colspan="2" rowspan="3">Prog <br> Toni Aula 1ºDAM</td>
+                <td colspan="2" rowspan="3" class="prog">Prog <br> Toni Aula 1ºDAM</td>
                 <td colspan="2" rowspan="3"></td>
-                <td colspan="2" rowspan="3">ItPerEmpl <br> Iria Aula 1ºDAM</td>
+                <td colspan="2" rowspan="3" class="ipe">ItPerEmpl <br> Iria Aula 1ºDAM</td>
                 <td colspan="2" rowspan="3"></td>
                 <td colspan="2" rowspan="3"></td>
             </tr>

@@ -1,0 +1,35 @@
+table{
+  border: 1px solid blue;
+  border-collapse: collapse;
+}
+td,th{
+  border: 1px solid blue;
+}
+
+.bd{
+  background-color: pink;
+}
+
+.contdes{
+  background-color: red;
+}
+
+.lima{
+  background-color: yellow;
+}
+
+.sist{
+  background-color: orange;
+}
+.prog{
+  background-color: blue;
+}
+.ipe{
+  background-color: green;
+}
+.ing{
+  background-color: gray;
+}
+.sust{
+  background-color: silver;
+}
